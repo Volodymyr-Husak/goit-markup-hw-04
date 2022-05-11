@@ -169,7 +169,8 @@ img {
 }
 
 .link-contact-header {
-    display: block;
+    /* display: block; */
+    display: flex;
     padding-top: 32px;
     padding-bottom: 32px;
 
@@ -185,16 +186,28 @@ img {
     margin-right: 50px;
 }
 
-
 .link-contact-header:focus,
 .link-contact-header:hover,
 .link-navigation:focus,
 .link-navigation:hover {
     color: var(--blue-color);
+    fill: var(--blue-color);
 }
 
 .current {
     color: var(--blue-color);
+}
+
+.email-icon {
+    width: 16px;
+    height: 12px;
+    margin-right: 10px;
+}
+
+.tel-icon {
+    width: 10px;
+    height: 16px;
+    margin-right: 10px;
 }
 
 /* ================== */
