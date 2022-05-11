@@ -203,12 +203,14 @@ img {
     width: 16px;
     height: 16px;
     margin-right: 10px;
+    /* color: red; */
+    fill: var(--main-color);
 }
 
 .tel-icon {
-    display: flex;
-    width: 10px;
-    height: 16px;
+    /* display: flex; */
+    /* width: 10px;
+    height: 16px; */
     margin-right: 10px;
 }
 
