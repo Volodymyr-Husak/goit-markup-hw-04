@@ -200,11 +200,12 @@ img {
 
 .email-icon {
     width: 16px;
-    height: 12px;
+    height: 16px;
     margin-right: 10px;
 }
 
 .tel-icon {
+    display: flex;
     width: 10px;
     height: 16px;
     margin-right: 10px;
@@ -331,6 +332,21 @@ img {
 .list-benefits .item:last-child {
     margin-right: 0;
 }
+
+.benefits-icon {
+    display: flex;
+    width: 270px;
+    height: 120px;
+
+    padding: 25px 100px;
+    margin-bottom: 30px;
+
+    background-color: var(--background-color-portfolio-btn);
+}
+
+
+
+
 
 /* title */
 .title-benefits {
