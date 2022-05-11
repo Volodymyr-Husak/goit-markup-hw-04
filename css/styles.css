@@ -9,6 +9,7 @@
     --black-color: #000000;
     --title-color: #212121;
     --background-black-color: #2F303A;
+    --bg-grey-cl: #C4C4C4;
     --link-contact-footer: rgba(255, 255, 255, 0.6);
     --bg-cl-hero-btn-hover: #188CE8;
     --brd-bot-header: #ECECEC;
@@ -239,7 +240,18 @@ img {
 .hero {
     padding-top: 200px;
     padding-bottom: 200px;
-    background-color: var(--background-black-color);
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1600px;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    background-color: var(--bg-grey-cl);
+    background-image: url(../images/hero/hero-bg.png),
+        url(../images/hero/hero-img.png);
+
 }
 
 .hero-container {
