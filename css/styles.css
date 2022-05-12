@@ -521,11 +521,19 @@ img {
     border: 1px solid #AFB1B8;
     border-radius: 4px;
 
+    fill: var(--grey-cl-icons);
+
     /* background-color: teal; */
 }
 
 .list-logo .item:not(:last-child) {
     margin-right: 30px;
+}
+
+.link-logo:hover,
+.link-logo:focus {
+    border: 1px solid var(--blue-color);
+    fill: var(--blue-color);
 }
 
 /* =============================================== */
