@@ -12,6 +12,7 @@
     --background-black-color: #2F303A;
     --bg-grey-cl: #C4C4C4;
     --link-contact-footer: rgba(255, 255, 255, 0.6);
+    --bg-cl-footer-icons: rgba(255, 255, 255, 0.1);
     --bg-cl-hero-btn-hover: #188CE8;
     --brd-bot-header: #ECECEC;
     /* portfolio */
@@ -230,6 +231,10 @@ img {
 /* ================== */
 
 .footer {
+    width: 1600px;
+
+    margin-left: auto;
+    margin-right: auto;
     padding-top: 60px;
     padding-bottom: 60px;
 
@@ -258,6 +263,63 @@ img {
 .link-contact-footer {
     color: var(--link-contact-footer);
 }
+
+.footer-container {
+    display: flex;
+}
+
+.footer-container-address {
+    margin-right: 70px;
+}
+
+/* social-networks */
+.social-networks-footer {
+    margin-top: 12px;
+}
+
+.footer-title {
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.17;
+    text-transform: uppercase;
+
+    color: var(--white-color);
+
+    /* margin-top: 12px; */
+    margin-bottom: 20px;
+}
+
+.link-footer-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+
+    background-color: var(--bg-cl-footer-icons);
+    border-radius: 50%;
+    fill: var(--white-color);
+
+
+}
+
+.link-footer-icons:hover {
+
+    background-color: var(--blue-color);
+    border-radius: 50%;
+}
+
+.list-footer-icons {
+    display: flex;
+    max-height: 44px;
+    /* background-color: teal; */
+}
+
+.item-footer-icons:not(:last-child) {
+    margin-right: 10px;
+}
+
 
 /* =============================================== */
 /*                      MAIN */
@@ -406,6 +468,11 @@ img {
 }
 
 .team {
+    width: 1600px;
+
+    margin-left: auto;
+    margin-right: auto;
+
     background-color: var(--background-color-portfolio-btn);
 }
 
