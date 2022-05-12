@@ -499,25 +499,34 @@ img {
 /*==================*/
 /*      CLIENTS */
 /* ================== */
-.logo-container {
+
+.title-clients {
+    margin-bottom: 50px;
+}
+
+.list-logo {
     display: flex;
 }
 
-.clients-logo {
+.link-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     width: 170px;
     height: 92px;
 
     padding: 16px 32px;
+
     border: 1px solid #AFB1B8;
     border-radius: 4px;
+
+    /* background-color: teal; */
 }
 
-
-
-
-
-
-
+.list-logo .item:not(:last-child) {
+    margin-right: 30px;
+}
 
 /* =============================================== */
 /*                      PORTFOLIO */
