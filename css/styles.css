@@ -271,6 +271,7 @@ img {
 /* social-networks */
 .social-networks-footer {
     margin-top: 12px;
+    /* align-items: baseline; */
 }
 
 .footer-title {
@@ -279,6 +280,7 @@ img {
     font-size: 14px;
     line-height: 1.17;
     text-transform: uppercase;
+
 
     color: var(--white-color);
 
@@ -585,7 +587,7 @@ img {
     width: 170px;
     height: 92px;
 
-    padding: 16px 32px;
+    /* padding: 16px 32px; */
 
     border: 1px solid #AFB1B8;
     border-radius: 4px;
