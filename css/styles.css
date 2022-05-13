@@ -214,16 +214,12 @@ img {
     width: 16px;
     height: 16px;
     margin-right: 10px;
-    /* color: red; */
-    /* fill: var(--main-color); */
 }
 
 .tel-icon {
-    /* display: flex; */
     width: 16px;
     height: 16px;
     margin-right: 10px;
-    padding: 0;
 }
 
 /* ================== */
@@ -532,7 +528,7 @@ img {
     text-align: center;
 }
 
-.cont-team-icons {
+.list-team-icons {
     display: flex;
     width: 206px;
     height: 44px;
@@ -540,24 +536,30 @@ img {
     margin-left: auto;
     margin-right: auto;
     justify-content: center;
+    align-items: center;
 
 }
 
-.team-icons {
+.item-icons {
+    margin-right: 10px;
+}
+
+.link-team-icons {
+    display: flex;
     width: 44px;
     height: 44px;
-    margin-right: 10px;
+
     /* background-color: teal; */
     padding: 12px;
     fill: var(--grey-cl-icons);
 }
 
-.team-icons:last-child {
+.link-team-icons:last-child {
     margin-right: 0;
 }
 
-.team-icons:hover,
-.team-icons:focus {
+.link-team-icons:hover,
+.link-team-icons:focus {
     fill: var(--white-color);
     background-color: var(--bg-cl-hero-btn-hover);
     border-radius: 50%;
