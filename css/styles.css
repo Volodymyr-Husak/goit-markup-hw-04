@@ -227,7 +227,7 @@ img {
 /* ================== */
 
 .footer {
-    width: 1600px;
+    /* min-width: 1600px; */
 
     margin-left: auto;
     margin-right: auto;
@@ -330,7 +330,7 @@ img {
     padding-bottom: 200px;
     margin-left: auto;
     margin-right: auto;
-    max-width: 1600px;
+    /* min-width: 1600px; */
 
     background-position: center;
     background-repeat: no-repeat;
@@ -409,10 +409,11 @@ img {
 
 .benefits-icon {
     display: flex;
-    width: 270px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
     height: 120px;
 
-    padding: 25px 100px;
     margin-bottom: 30px;
 
     background-color: var(--background-color-portfolio-btn);
@@ -466,7 +467,7 @@ img {
 }
 
 .team {
-    width: 1600px;
+    /* min-width: 1600px; */
 
     margin-left: auto;
     margin-right: auto;
