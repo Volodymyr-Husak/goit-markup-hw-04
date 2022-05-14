@@ -237,11 +237,11 @@ img {
     background-color: var(--background-black-color);
 }
 
-.footer-list {
+.footer-list-address {
     margin-top: 20px;
 }
 
-.footer .item:not(:last-child) {
+.footer-list-address .item:not(:last-child) {
     margin-bottom: 9px;
 }
 
@@ -344,6 +344,7 @@ img {
 
 .hero-container {
     text-align: center;
+
 }
 
 /* title */
@@ -431,6 +432,7 @@ img {
     font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
+    text-align: left;
 
     color: var(--title-color);
 }
@@ -543,23 +545,23 @@ img {
 
 }
 
-.item-icons {
+.item-icons:not(:last-child) {
     margin-right: 10px;
 }
 
 .link-team-icons {
     display: flex;
+    justify-content: center;
+    align-items: center;
+
     width: 44px;
     height: 44px;
 
     /* background-color: teal; */
-    padding: 12px;
+
     fill: var(--grey-cl-icons);
 }
 
-.link-team-icons:last-child {
-    margin-right: 0;
-}
 
 .link-team-icons:hover,
 .link-team-icons:focus {
